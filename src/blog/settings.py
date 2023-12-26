@@ -185,6 +185,7 @@ curl -X POST -H "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2V
 curl http://127.0.0.1:8000/api/comments/
 
 '''
+SESSION_COOKIE_SECURE = True
 
 
 
